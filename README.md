@@ -3,7 +3,7 @@
 
 Cette librairie apporte une multitude de fonctions utiles permettant de chiffer/déchiffer un texte, un tableau de byte ou un flux. À savoir qu'elle possède une dépendance vers le projet :
 
-- [Util-1.15.0](https://github.com/josephbriguet01/Util) (attention ce projet possède lui aussi des dépendances)
+- [Util-1.15.1](https://github.com/josephbriguet01/Util) (attention ce projet possède lui aussi des dépendances)
 
 # **Dé/Chiffrement**
 La librairie permet entre-autre de dé/chiffrer des textes/tableau de bytes.
