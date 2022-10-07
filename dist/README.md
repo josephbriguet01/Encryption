@@ -132,6 +132,38 @@ Encrypted:  ��w�
 Decrypted: Mon texte converti en bytes
 ```
 
+## 6. MD5
+Avec cette librairie il également possible de calculer le MD5 d'un flux d'entré, d'un fichier, d'un objet (serialisable)...
+```java
+// Partons du principe que nous avons un tableau de bytes,
+byte[] array = ...;
+
+// Un flux d'entré,
+InputStream is = ...;
+
+// Un fichier,
+File file = ...;
+
+// Et un objet serialisable
+Serializable obj = ...;
+
+// Il est possible de calculer le MD5 de chacun d'eux de manière très facile
+try {
+    MD5 md5 = new MD5(array);
+    md5 = new MD5(is);
+    md5 = new MD5(file);
+    md5 = new MD5(obj);
+    
+    // On peut récupérer la valeur du MD5 sous la forme d'un tableau de bytes
+    byte[] value = md5.toBytes();
+    
+    // Ou sous la forme d'une chaîne de caractères (ce qui est plus courant)
+    String str = md5.toString();
+} catch(Exception ex) {
+    // Là, c'est lorsqu'il y a une erreur quelconque qui nous empêche de faire le calcul du MD5
+}
+```
+
 # **Licence**
 Le projet est sous licence "GNU General Public License v3.0"
 
