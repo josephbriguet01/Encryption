@@ -120,6 +120,7 @@ public class Base extends Encryption implements Comparable<Base> {
      * Correspond au constructeur par défaut
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée.</div>
      */
+    @Deprecated
     private Base() {
         throw new UnsupportedOperationException("Method not supported.");
     }
@@ -245,6 +246,7 @@ public class Base extends Encryption implements Comparable<Base> {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée.</div>
      */
     @Override
+    @Deprecated
     public String encrypt(String chain) {
         throw new UnsupportedOperationException("Method not supported.");
     }
@@ -256,6 +258,7 @@ public class Base extends Encryption implements Comparable<Base> {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée.</div>
      */
     @Override
+    @Deprecated
     public String decrypt(String chain) {
         throw new UnsupportedOperationException("Method not supported.");
     }

@@ -76,6 +76,7 @@ public abstract class EncryptInputStream extends java.io.InputStream implements 
      * Crée un flux EncryptInputStream par défaut
      * @deprecated <div style="color: #D45B5B; font-style: italic">N'est pas utilisable.</div>
      */
+    @Deprecated
     private EncryptInputStream() {
         throw new UnsupportedOperationException("Method not supported.");
     }
@@ -161,6 +162,7 @@ public abstract class EncryptInputStream extends java.io.InputStream implements 
      * @deprecated <div style="color: #D45B5B; font-style: italic">À ne pas utiliser. Dans le cas d'un flux autre qu'une base 256, l'utilisation d'un marque ne peut avoir de sens.</div>
      */
     @Override
+    @Deprecated
     public synchronized void mark(int readlimit) {
         
     }
@@ -171,6 +173,7 @@ public abstract class EncryptInputStream extends java.io.InputStream implements 
      * @deprecated <div style="color: #D45B5B; font-style: italic">À ne pas utiliser. Dans le cas d'un flux autre qu'une base 256, l'utilisation d'un marque ne peut avoir de sens.</div>
      */
     @Override
+    @Deprecated
     public synchronized void reset() throws java.io.IOException {
         throw new java.io.IOException("mark is not supported !");
     }
@@ -183,6 +186,7 @@ public abstract class EncryptInputStream extends java.io.InputStream implements 
      * @deprecated <div style="color: #D45B5B; font-style: italic">À ne pas utiliser. Dans le cas d'un flux autre qu'une base 256, la recherche ne peut avoir de sens puisque les bytes sont fusionnés entre eux.</div>
      */
     @Override
+    @Deprecated
     public long skip(long n) throws java.io.IOException {
         throw new java.io.IOException("skip is not supported !");
     }

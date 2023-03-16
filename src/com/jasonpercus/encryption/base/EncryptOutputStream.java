@@ -56,6 +56,7 @@ public abstract class EncryptOutputStream extends java.io.OutputStream implement
      * Crée un flux EncryptOutputStream par défaut
      * @deprecated <div style="color: #D45B5B; font-style: italic">N'est pas utilisable.</div>
      */
+    @Deprecated
     private EncryptOutputStream() {
         throw new UnsupportedOperationException("Method not supported.");
     }
@@ -108,6 +109,7 @@ public abstract class EncryptOutputStream extends java.io.OutputStream implement
      * @deprecated <div style="color: #D45B5B; font-style: italic">N'a pas d'utilité particulière dans ce cas</div>
      */
     @Override
+    @Deprecated
     public void flush() throws java.io.IOException {
         
     }

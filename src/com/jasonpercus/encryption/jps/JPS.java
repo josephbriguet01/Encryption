@@ -116,6 +116,7 @@ public class JPS extends Cipher {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée dans ce contexte. Malgré tout si elle devait l'être par inadvertance, celle-ci lèvera une exception.</div>
      */
     @Override
+    @Deprecated
     public Key generateKey(int size) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -136,6 +137,7 @@ public class JPS extends Cipher {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée dans ce contexte. Malgré tout si elle devait l'être par inadvertance, celle-ci lèvera une exception.</div>
      */
     @Override
+    @Deprecated
     public Key generatePublicKey(int size) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -156,6 +158,7 @@ public class JPS extends Cipher {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée dans ce contexte. Malgré tout si elle devait l'être par inadvertance, celle-ci lèvera une exception.</div>
      */
     @Override
+    @Deprecated
     public Key generatePrivateKey(int size) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -222,6 +225,7 @@ public class JPS extends Cipher {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée dans ce contexte. Malgré tout si elle devait l'être par inadvertance, celle-ci lèvera une exception.</div>
      */
     @Override
+    @Deprecated
     public byte[] encrypt(byte[] datas) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
@@ -233,6 +237,7 @@ public class JPS extends Cipher {
      * @deprecated <div style="color: #D45B5B; font-style: italic">Cette méthode ne peut être utilisée dans ce contexte. Malgré tout si elle devait l'être par inadvertance, celle-ci lèvera une exception.</div>
      */
     @Override
+    @Deprecated
     public byte[] decrypt(byte[] datas) {
         throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
     }
